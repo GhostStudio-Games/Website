@@ -1108,3 +1108,22 @@ body {
   .footer .logo img { width: 205px; }
 
 }
+
+/* STATS */
+.stats-list li
+{
+    display: inline-block;
+    padding: 60px;
+}
+
+.stat-img 
+{
+    width: 230px;
+    height: auto;
+    filter: drop-shadow(0px 5px 0px #000);
+}
+
+.stats-list li h3
+{
+    text-align: center;
+}
