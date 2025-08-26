@@ -14,6 +14,12 @@
   #CUSTOM PROPERTY
 \*-----------------------------------*/
 
+@font-face 
+{
+  font-family: 'Monthoers';
+  src: url('../Fonts/Monthoers.ttf') format('truetype')
+}
+
 :root {
 
   /**
@@ -217,6 +223,7 @@ body {
 }
 
 .h2 {
+  font-family: 'Monthoers', sans-serif;
   font-size: var(--fontSize-2);
   line-height: 1.4;
 }
@@ -276,7 +283,7 @@ body {
 
 .section-title {
   margin-block: 10px;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
 .section-title .span {
@@ -423,7 +430,11 @@ body {
 
 .hero .section-subtitle { letter-spacing: 5px; }
 
-.hero-title { margin-block: 20px 25px; }
+.hero-title {
+  font-family: 'Monthoers', sans-serif;
+  margin-block: 20px 25px;
+  text-transform: lowercase;
+}
 
 .hero .btn { margin-inline: auto; }
 
@@ -839,7 +850,7 @@ body {
      */
 
     /* font size */
-    --fontSize-1: 6.5rem;
+    --fontSize-1: 5.8rem;
     --fontSize-2: 3.2rem;
 
   }
@@ -1126,4 +1137,10 @@ body {
 .stats-list li h3
 {
     text-align: center;
+}
+
+.highlight 
+{
+  color: var(--text-purple);
+  display: inline;
 }
