@@ -21,8 +21,8 @@
    */
 
   /* background color */
-  --bg-purple: hsla(150, 100%, 50%, 1);
-  --bg-purple-alpha-30: hsla(150, 100%, 50%, 0.3);
+  --bg-purple: rgb(255, 0, 0);
+  --bg-purple-alpha-30: hsla(0, 100%, 50%, 0.3);
   --bg-dark-purple: hsla(0, 0%, 18%, 1);
   --bg-oxford-blue: hsla(0, 0%, 18%, 0.7);
   --bg-oxford-blue-alpha-95: hsla(0, 0%, 18%, 0.95);
@@ -31,13 +31,13 @@
 
   /* gradient color */
   --gradient-1: linear-gradient(to right bottom, hsl(0, 0%, 75%), hsl(0, 0%, 50%), hsl(0, 0%, 25%));
-  --gradient-2: linear-gradient(90deg, transparent 0%, #00FF7F 50%, transparent 100%);
+  --gradient-2: linear-gradient(90deg, transparent 0%, #ff0000 50%, transparent 100%);
 
   /* text color */
   --text-white: hsla(0, 0%, 100%, 1);
   --text-gainsboro: hsla(0, 0%, 87%, 1);
   --text-champagne-pink: hsla(23, 61%, 86%, 1);
-  --text-purple: hsla(150, 100%, 50%, 1);
+  --text-purple: rgb(255, 0, 0);
 
   /* border color */
   --border-space-cadet: hsl(240, 45%, 17%);
@@ -417,7 +417,7 @@ body {
 \*-----------------------------------*/
 
 .hero {
-  padding-block-start: 170px;
+  padding-block-start: 160px;
   text-align: center;
 }
 
@@ -438,7 +438,7 @@ body {
 
 .hero-banner {
   position: relative;
-  margin-block-start: 50px;
+  margin-block-start: 80px;
 }
 
 .hero-banner-bg { display: none; }
@@ -1071,12 +1071,12 @@ body {
    * HERO
    */
 
-  .hero { padding-block-start: 250px; }
+  .hero { padding-block-start: 140px; }
 
   .hero-banner-bg { transform: scale(1); }
 
   .hero-banner .w-100 {
-    max-width: 50%;
+    max-width: 30%;
     margin-inline: auto;
   }
 
