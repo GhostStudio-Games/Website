@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
             cards: [
                 { imgSrc: "./images/4.png", altText: "SlideRush", description: "A thrilling and addictive game designed for non-stop fun across multiple dynamic levels!", link: "https://play.google.com/store/apps/details?id=com.GhoStudioGames.SlideRush" },
                 { imgSrc: "./images/5.png", altText: "Zero Drift", description: "The ultimate drift racing experience that combines skill, control, and lightning-fast speed!", link: "https://play.google.com/store/apps/details?id=com.GhoStudioGames.ZeroDrift" },
-                { imgSrc: "./images/7.png", altText: "Phobophobia 1.0 – The Experiment", description: "A story-driven psychological horror experience where you must survive 10 phobia-inspired rooms, each filled with atmospheric puzzles, relentless dread, and unsettling truths waiting to be uncovered.", link: "#", buttonText: "Coming Soon" },
+                { imgSrc: "./images/7.png", altText: "Phobophobia 1.0 – The Experiment", description: "A story-driven psychological horror experience where you must survive 10 phobia-inspired rooms, each filled with atmospheric puzzles, relentless dread, and unsettling truths waiting to be uncovered.", link: "https://store.steampowered.com/app/3981410/Phobophobia_10__The_Experiment/"},
                 { imgSrc: "./images/6.png", altText: "Extreme 2048", description: "Take your 2048 game experience to the next level with four challenging modes.", link: "https://play.google.com/store/apps/details?id=com.GhoStudioGames.Extreme2048" },
                 { imgSrc: "./images/8.png", altText: "Next Title", description: "Our next title is still a whisper in the ether—an idea taking form. What will emerge from the imagination? Only time will tell.", link: "#", buttonText: "Coming Soon" }
             ],
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 { imgSrc: "./images/12.png", altText: "Instagram", description: "Follow us on Instagram!", link: "https://www.instagram.com/ghostudio_games/" },
                 { imgSrc: "./images/15.png", altText: "Discord", description: "Our Discord server is more than an update hub—it’s a space where gamers connect, anime discussions happen, ideas are shared, and feedback shapes the future of our games. Join us to be part of the conversation and help grow the community.", link: "https://discord.gg/7uqW4FW8vH" },
                 { imgSrc: "./images/14.png", altText: "X", description: "Get the latest news on X (Twitter).", link: "https://x.com/GhoStudio_Games" },
-                { imgSrc: "./images/16.png", altText: "Steam", description: "Wishlist our upcoming titles on Steam.", link: "#", buttonText: "Coming Soon" }
+                { imgSrc: "./images/16.png", altText: "Steam", description: "Wishlist our upcoming titles on Steam.", link: "https://store.steampowered.com/curator/45751656"}
             ],
             description: "Connect with us on social media."
         },
